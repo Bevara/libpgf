@@ -1,0 +1,17 @@
+{
+    "name": "libpgf",
+    "description": "PGF (Progressive Graphics File) decoder",
+    "filters":["pgfdec"],
+    "help": "This filter decodes PGF (Progressive Graphics File) images using libpgf.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libpgf.accessor",
+    "filter_source":{
+        "pgfdec" : "dec_pgf.c"
+    },
+    "extension":{
+      "pgf" : "img"
+    },
+    "licence_required":false
+}
