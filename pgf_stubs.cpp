@@ -23,7 +23,7 @@ void operator delete[](void *p, const std::nothrow_t &) noexcept
 	std::free(p);
 }
 
-/* div() is not among the libc functions solver_minimal_1 exports, and libpgf
+/* div() is not among the libc functions mm_solver_minimal_1.0.1 exports, and libpgf
  * reaches it through PGFimage.cpp. */
 extern "C" div_t div(int numer, int denom)
 {
